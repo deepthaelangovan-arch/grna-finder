@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>gRNA Finder</title>
+</head>
+
+<body>
+    <h1>Guide RNA (gRNA) Finder</h1>
+
+    <p>Enter a DNA sequence to scan for PAM sites.</p>
+
+    <textarea id="dna" rows="6" cols="60"
+        placeholder="Enter DNA sequence here..."></textarea>
+
+    <br><br>
+
+    <button onclick="findGRNA()">Find gRNA</button>
+
+    <h2>Results</h2>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
